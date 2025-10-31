@@ -110,4 +110,4 @@ if __name__ == '__main__':
     # Cria o banco de dados e as tabelas antes de rodar a aplicação pela primeira vez
     with app.app_context():
         db.create_all() # Isso cria o arquivo database.db e as tabelas nele
-    app.run(debug=True) # Roda o servidor Flask em modo de depuração
+    app.run(host='0.0.0.0', port=5000, debug=True, threaded=False)

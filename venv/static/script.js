@@ -1,5 +1,5 @@
 // script.js
-const API_URL = '/pessoas';
+const API_URL = 'http://192.168.0.1:5000/pessoas';
 const formPessoa = document.getElementById('formPessoa');
 const idPessoaInput = document.getElementById('idPessoa');
 const nomeInput = document.getElementById('nome');
